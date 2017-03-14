@@ -20,6 +20,7 @@ class ChatApi {
     const { data } = await axios.get(this.path);
     return data.chats;
   }
+
 }
 
 export {
